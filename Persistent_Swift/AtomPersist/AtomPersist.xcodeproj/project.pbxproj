@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7138D562616BB4200AA990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7138D552616BB4200AA990A /* Assets.xcassets */; };
+		D7138D592616BB4300AA990A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7138D572616BB4300AA990A /* Main.storyboard */; };
+		D7138D652616BB4300AA990A /* AtomPersistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138D642616BB4300AA990A /* AtomPersistTests.swift */; };
+		D7138D702616BB4300AA990A /* AtomPersistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138D6F2616BB4300AA990A /* AtomPersistUITests.swift */; };
+		D7138D7E2616BB5000AA990A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138D7D2616BB5000AA990A /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7138D612616BB4300AA990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7138D462616BB4000AA990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7138D4D2616BB4000AA990A;
+			remoteInfo = AtomPersist;
+		};
+		D7138D6C2616BB4300AA990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7138D462616BB4000AA990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7138D4D2616BB4000AA990A;
+			remoteInfo = AtomPersist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7138D4E2616BB4000AA990A /* AtomPersist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomPersist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138D552616BB4200AA990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7138D582616BB4300AA990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7138D5A2616BB4300AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138D5B2616BB4300AA990A /* AtomPersist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtomPersist.entitlements; sourceTree = "<group>"; };
+		D7138D602616BB4300AA990A /* AtomPersistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomPersistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138D642616BB4300AA990A /* AtomPersistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomPersistTests.swift; sourceTree = "<group>"; };
+		D7138D662616BB4300AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138D6B2616BB4300AA990A /* AtomPersistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomPersistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138D6F2616BB4300AA990A /* AtomPersistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomPersistUITests.swift; sourceTree = "<group>"; };
+		D7138D712616BB4300AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138D7D2616BB5000AA990A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7138D4B2616BB4000AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D5D2616BB4300AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D682616BB4300AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7138D452616BB4000AA990A = {
+			isa = PBXGroup;
+			children = (
+				D7138D502616BB4000AA990A /* AtomPersist */,
+				D7138D632616BB4300AA990A /* AtomPersistTests */,
+				D7138D6E2616BB4300AA990A /* AtomPersistUITests */,
+				D7138D4F2616BB4000AA990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7138D4F2616BB4000AA990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D4E2616BB4000AA990A /* AtomPersist.app */,
+				D7138D602616BB4300AA990A /* AtomPersistTests.xctest */,
+				D7138D6B2616BB4300AA990A /* AtomPersistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7138D502616BB4000AA990A /* AtomPersist */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D552616BB4200AA990A /* Assets.xcassets */,
+				D7138D572616BB4300AA990A /* Main.storyboard */,
+				D7138D5A2616BB4300AA990A /* Info.plist */,
+				D7138D5B2616BB4300AA990A /* AtomPersist.entitlements */,
+				D7138D7D2616BB5000AA990A /* main.swift */,
+			);
+			path = AtomPersist;
+			sourceTree = "<group>";
+		};
+		D7138D632616BB4300AA990A /* AtomPersistTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D642616BB4300AA990A /* AtomPersistTests.swift */,
+				D7138D662616BB4300AA990A /* Info.plist */,
+			);
+			path = AtomPersistTests;
+			sourceTree = "<group>";
+		};
+		D7138D6E2616BB4300AA990A /* AtomPersistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D6F2616BB4300AA990A /* AtomPersistUITests.swift */,
+				D7138D712616BB4300AA990A /* Info.plist */,
+			);
+			path = AtomPersistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7138D4D2616BB4000AA990A /* AtomPersist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138D742616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersist" */;
+			buildPhases = (
+				D7138D4A2616BB4000AA990A /* Sources */,
+				D7138D4B2616BB4000AA990A /* Frameworks */,
+				D7138D4C2616BB4000AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtomPersist;
+			productName = AtomPersist;
+			productReference = D7138D4E2616BB4000AA990A /* AtomPersist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7138D5F2616BB4300AA990A /* AtomPersistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138D772616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersistTests" */;
+			buildPhases = (
+				D7138D5C2616BB4300AA990A /* Sources */,
+				D7138D5D2616BB4300AA990A /* Frameworks */,
+				D7138D5E2616BB4300AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7138D622616BB4300AA990A /* PBXTargetDependency */,
+			);
+			name = AtomPersistTests;
+			productName = AtomPersistTests;
+			productReference = D7138D602616BB4300AA990A /* AtomPersistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7138D6A2616BB4300AA990A /* AtomPersistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138D7A2616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersistUITests" */;
+			buildPhases = (
+				D7138D672616BB4300AA990A /* Sources */,
+				D7138D682616BB4300AA990A /* Frameworks */,
+				D7138D692616BB4300AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7138D6D2616BB4300AA990A /* PBXTargetDependency */,
+			);
+			name = AtomPersistUITests;
+			productName = AtomPersistUITests;
+			productReference = D7138D6B2616BB4300AA990A /* AtomPersistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7138D462616BB4000AA990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D7138D4D2616BB4000AA990A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D7138D5F2616BB4300AA990A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7138D4D2616BB4000AA990A;
+					};
+					D7138D6A2616BB4300AA990A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7138D4D2616BB4000AA990A;
+					};
+				};
+			};
+			buildConfigurationList = D7138D492616BB4000AA990A /* Build configuration list for PBXProject "AtomPersist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7138D452616BB4000AA990A;
+			productRefGroup = D7138D4F2616BB4000AA990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7138D4D2616BB4000AA990A /* AtomPersist */,
+				D7138D5F2616BB4300AA990A /* AtomPersistTests */,
+				D7138D6A2616BB4300AA990A /* AtomPersistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7138D4C2616BB4000AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D562616BB4200AA990A /* Assets.xcassets in Resources */,
+				D7138D592616BB4300AA990A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D5E2616BB4300AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D692616BB4300AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7138D4A2616BB4000AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D7E2616BB5000AA990A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D5C2616BB4300AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D652616BB4300AA990A /* AtomPersistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D672616BB4300AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D702616BB4300AA990A /* AtomPersistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7138D622616BB4300AA990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7138D4D2616BB4000AA990A /* AtomPersist */;
+			targetProxy = D7138D612616BB4300AA990A /* PBXContainerItemProxy */;
+		};
+		D7138D6D2616BB4300AA990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7138D4D2616BB4000AA990A /* AtomPersist */;
+			targetProxy = D7138D6C2616BB4300AA990A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7138D572616BB4300AA990A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7138D582616BB4300AA990A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7138D722616BB4300AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7138D732616BB4300AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7138D752616BB4300AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AtomPersist/AtomPersist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AtomPersist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7138D762616BB4300AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AtomPersist/AtomPersist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AtomPersist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7138D782616BB4300AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = AtomPersistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomPersist.app/Contents/MacOS/AtomPersist";
+			};
+			name = Debug;
+		};
+		D7138D792616BB4300AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = AtomPersistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtomPersist.app/Contents/MacOS/AtomPersist";
+			};
+			name = Release;
+		};
+		D7138D7B2616BB4300AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = AtomPersistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AtomPersist;
+			};
+			name = Debug;
+		};
+		D7138D7C2616BB4300AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = AtomPersistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.AtomPersistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AtomPersist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7138D492616BB4000AA990A /* Build configuration list for PBXProject "AtomPersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138D722616BB4300AA990A /* Debug */,
+				D7138D732616BB4300AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138D742616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138D752616BB4300AA990A /* Debug */,
+				D7138D762616BB4300AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138D772616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138D782616BB4300AA990A /* Debug */,
+				D7138D792616BB4300AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138D7A2616BB4300AA990A /* Build configuration list for PBXNativeTarget "AtomPersistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138D7B2616BB4300AA990A /* Debug */,
+				D7138D7C2616BB4300AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7138D462616BB4000AA990A /* Project object */;
+}
