@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7BCF58C26196259007BF11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BCF58B26196259007BF11B /* Assets.xcassets */; };
+		D7BCF58F26196259007BF11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BCF58D26196259007BF11B /* Main.storyboard */; };
+		D7BCF59B26196259007BF11B /* CronJobPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BCF59A26196259007BF11B /* CronJobPersistenceTests.swift */; };
+		D7BCF5A626196259007BF11B /* CronJobPersistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BCF5A526196259007BF11B /* CronJobPersistenceUITests.swift */; };
+		D7BCF5B426196268007BF11B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BCF5B326196268007BF11B /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7BCF59726196259007BF11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BCF57C26196255007BF11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BCF58326196255007BF11B;
+			remoteInfo = CronJobPersistence;
+		};
+		D7BCF5A226196259007BF11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BCF57C26196255007BF11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BCF58326196255007BF11B;
+			remoteInfo = CronJobPersistence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7BCF58426196255007BF11B /* CronJobPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CronJobPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BCF58B26196259007BF11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7BCF58E26196259007BF11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7BCF59026196259007BF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BCF59126196259007BF11B /* CronJobPersistence.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CronJobPersistence.entitlements; sourceTree = "<group>"; };
+		D7BCF59626196259007BF11B /* CronJobPersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronJobPersistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BCF59A26196259007BF11B /* CronJobPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobPersistenceTests.swift; sourceTree = "<group>"; };
+		D7BCF59C26196259007BF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BCF5A126196259007BF11B /* CronJobPersistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronJobPersistenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BCF5A526196259007BF11B /* CronJobPersistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJobPersistenceUITests.swift; sourceTree = "<group>"; };
+		D7BCF5A726196259007BF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BCF5B326196268007BF11B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7BCF58126196255007BF11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59326196259007BF11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59E26196259007BF11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7BCF57B26196255007BF11B = {
+			isa = PBXGroup;
+			children = (
+				D7BCF58626196255007BF11B /* CronJobPersistence */,
+				D7BCF59926196259007BF11B /* CronJobPersistenceTests */,
+				D7BCF5A426196259007BF11B /* CronJobPersistenceUITests */,
+				D7BCF58526196255007BF11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BCF58526196255007BF11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BCF58426196255007BF11B /* CronJobPersistence.app */,
+				D7BCF59626196259007BF11B /* CronJobPersistenceTests.xctest */,
+				D7BCF5A126196259007BF11B /* CronJobPersistenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7BCF58626196255007BF11B /* CronJobPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				D7BCF58B26196259007BF11B /* Assets.xcassets */,
+				D7BCF58D26196259007BF11B /* Main.storyboard */,
+				D7BCF59026196259007BF11B /* Info.plist */,
+				D7BCF59126196259007BF11B /* CronJobPersistence.entitlements */,
+				D7BCF5B326196268007BF11B /* main.swift */,
+			);
+			path = CronJobPersistence;
+			sourceTree = "<group>";
+		};
+		D7BCF59926196259007BF11B /* CronJobPersistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7BCF59A26196259007BF11B /* CronJobPersistenceTests.swift */,
+				D7BCF59C26196259007BF11B /* Info.plist */,
+			);
+			path = CronJobPersistenceTests;
+			sourceTree = "<group>";
+		};
+		D7BCF5A426196259007BF11B /* CronJobPersistenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7BCF5A526196259007BF11B /* CronJobPersistenceUITests.swift */,
+				D7BCF5A726196259007BF11B /* Info.plist */,
+			);
+			path = CronJobPersistenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7BCF58326196255007BF11B /* CronJobPersistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BCF5AA26196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistence" */;
+			buildPhases = (
+				D7BCF58026196255007BF11B /* Sources */,
+				D7BCF58126196255007BF11B /* Frameworks */,
+				D7BCF58226196255007BF11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CronJobPersistence;
+			productName = CronJobPersistence;
+			productReference = D7BCF58426196255007BF11B /* CronJobPersistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7BCF59526196259007BF11B /* CronJobPersistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BCF5AD26196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistenceTests" */;
+			buildPhases = (
+				D7BCF59226196259007BF11B /* Sources */,
+				D7BCF59326196259007BF11B /* Frameworks */,
+				D7BCF59426196259007BF11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7BCF59826196259007BF11B /* PBXTargetDependency */,
+			);
+			name = CronJobPersistenceTests;
+			productName = CronJobPersistenceTests;
+			productReference = D7BCF59626196259007BF11B /* CronJobPersistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7BCF5A026196259007BF11B /* CronJobPersistenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BCF5B026196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistenceUITests" */;
+			buildPhases = (
+				D7BCF59D26196259007BF11B /* Sources */,
+				D7BCF59E26196259007BF11B /* Frameworks */,
+				D7BCF59F26196259007BF11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7BCF5A326196259007BF11B /* PBXTargetDependency */,
+			);
+			name = CronJobPersistenceUITests;
+			productName = CronJobPersistenceUITests;
+			productReference = D7BCF5A126196259007BF11B /* CronJobPersistenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BCF57C26196255007BF11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D7BCF58326196255007BF11B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D7BCF59526196259007BF11B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7BCF58326196255007BF11B;
+					};
+					D7BCF5A026196259007BF11B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7BCF58326196255007BF11B;
+					};
+				};
+			};
+			buildConfigurationList = D7BCF57F26196255007BF11B /* Build configuration list for PBXProject "CronJobPersistence" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7BCF57B26196255007BF11B;
+			productRefGroup = D7BCF58526196255007BF11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7BCF58326196255007BF11B /* CronJobPersistence */,
+				D7BCF59526196259007BF11B /* CronJobPersistenceTests */,
+				D7BCF5A026196259007BF11B /* CronJobPersistenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7BCF58226196255007BF11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCF58C26196259007BF11B /* Assets.xcassets in Resources */,
+				D7BCF58F26196259007BF11B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59426196259007BF11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59F26196259007BF11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7BCF58026196255007BF11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCF5B426196268007BF11B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59226196259007BF11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCF59B26196259007BF11B /* CronJobPersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BCF59D26196259007BF11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCF5A626196259007BF11B /* CronJobPersistenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7BCF59826196259007BF11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7BCF58326196255007BF11B /* CronJobPersistence */;
+			targetProxy = D7BCF59726196259007BF11B /* PBXContainerItemProxy */;
+		};
+		D7BCF5A326196259007BF11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7BCF58326196255007BF11B /* CronJobPersistence */;
+			targetProxy = D7BCF5A226196259007BF11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7BCF58D26196259007BF11B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7BCF58E26196259007BF11B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7BCF5A826196259007BF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7BCF5A926196259007BF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7BCF5AB26196259007BF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CronJobPersistence/CronJobPersistence.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = CronJobPersistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7BCF5AC26196259007BF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CronJobPersistence/CronJobPersistence.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = CronJobPersistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7BCF5AE26196259007BF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = CronJobPersistenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CronJobPersistence.app/Contents/MacOS/CronJobPersistence";
+			};
+			name = Debug;
+		};
+		D7BCF5AF26196259007BF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = CronJobPersistenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CronJobPersistence.app/Contents/MacOS/CronJobPersistence";
+			};
+			name = Release;
+		};
+		D7BCF5B126196259007BF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = CronJobPersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CronJobPersistence;
+			};
+			name = Debug;
+		};
+		D7BCF5B226196259007BF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = CronJobPersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dev.CronJobPersistenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CronJobPersistence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7BCF57F26196255007BF11B /* Build configuration list for PBXProject "CronJobPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BCF5A826196259007BF11B /* Debug */,
+				D7BCF5A926196259007BF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BCF5AA26196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BCF5AB26196259007BF11B /* Debug */,
+				D7BCF5AC26196259007BF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BCF5AD26196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BCF5AE26196259007BF11B /* Debug */,
+				D7BCF5AF26196259007BF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BCF5B026196259007BF11B /* Build configuration list for PBXNativeTarget "CronJobPersistenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BCF5B126196259007BF11B /* Debug */,
+				D7BCF5B226196259007BF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7BCF57C26196255007BF11B /* Project object */;
+}
