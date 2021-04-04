@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7138D9026174F4200AA990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7138D8F26174F4200AA990A /* Assets.xcassets */; };
+		D7138D9326174F4200AA990A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7138D9126174F4200AA990A /* Main.storyboard */; };
+		D7138D9F26174F4200AA990A /* Bash_Profile_PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138D9E26174F4200AA990A /* Bash_Profile_PersistenceTests.swift */; };
+		D7138DAA26174F4200AA990A /* Bash_Profile_PersistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138DA926174F4200AA990A /* Bash_Profile_PersistenceUITests.swift */; };
+		D7138DB826174F5000AA990A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7138DB726174F5000AA990A /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7138D9B26174F4200AA990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7138D8026174F4000AA990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7138D8726174F4000AA990A;
+			remoteInfo = Bash_Profile_Persistence;
+		};
+		D7138DA626174F4200AA990A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7138D8026174F4000AA990A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7138D8726174F4000AA990A;
+			remoteInfo = Bash_Profile_Persistence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7138D8826174F4000AA990A /* Bash_Profile_Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bash_Profile_Persistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138D8F26174F4200AA990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7138D9226174F4200AA990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7138D9426174F4200AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138D9526174F4200AA990A /* Bash_Profile_Persistence.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bash_Profile_Persistence.entitlements; sourceTree = "<group>"; };
+		D7138D9A26174F4200AA990A /* Bash_Profile_PersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bash_Profile_PersistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138D9E26174F4200AA990A /* Bash_Profile_PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bash_Profile_PersistenceTests.swift; sourceTree = "<group>"; };
+		D7138DA026174F4200AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138DA526174F4200AA990A /* Bash_Profile_PersistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bash_Profile_PersistenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7138DA926174F4200AA990A /* Bash_Profile_PersistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bash_Profile_PersistenceUITests.swift; sourceTree = "<group>"; };
+		D7138DAB26174F4200AA990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7138DB726174F5000AA990A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7138D8526174F4000AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D9726174F4200AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138DA226174F4200AA990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7138D7F26174F4000AA990A = {
+			isa = PBXGroup;
+			children = (
+				D7138D8A26174F4000AA990A /* Bash_Profile_Persistence */,
+				D7138D9D26174F4200AA990A /* Bash_Profile_PersistenceTests */,
+				D7138DA826174F4200AA990A /* Bash_Profile_PersistenceUITests */,
+				D7138D8926174F4000AA990A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7138D8926174F4000AA990A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D8826174F4000AA990A /* Bash_Profile_Persistence.app */,
+				D7138D9A26174F4200AA990A /* Bash_Profile_PersistenceTests.xctest */,
+				D7138DA526174F4200AA990A /* Bash_Profile_PersistenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7138D8A26174F4000AA990A /* Bash_Profile_Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D8F26174F4200AA990A /* Assets.xcassets */,
+				D7138D9126174F4200AA990A /* Main.storyboard */,
+				D7138D9426174F4200AA990A /* Info.plist */,
+				D7138D9526174F4200AA990A /* Bash_Profile_Persistence.entitlements */,
+				D7138DB726174F5000AA990A /* main.swift */,
+			);
+			path = Bash_Profile_Persistence;
+			sourceTree = "<group>";
+		};
+		D7138D9D26174F4200AA990A /* Bash_Profile_PersistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7138D9E26174F4200AA990A /* Bash_Profile_PersistenceTests.swift */,
+				D7138DA026174F4200AA990A /* Info.plist */,
+			);
+			path = Bash_Profile_PersistenceTests;
+			sourceTree = "<group>";
+		};
+		D7138DA826174F4200AA990A /* Bash_Profile_PersistenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7138DA926174F4200AA990A /* Bash_Profile_PersistenceUITests.swift */,
+				D7138DAB26174F4200AA990A /* Info.plist */,
+			);
+			path = Bash_Profile_PersistenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7138D8726174F4000AA990A /* Bash_Profile_Persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138DAE26174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_Persistence" */;
+			buildPhases = (
+				D7138D8426174F4000AA990A /* Sources */,
+				D7138D8526174F4000AA990A /* Frameworks */,
+				D7138D8626174F4000AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bash_Profile_Persistence;
+			productName = Bash_Profile_Persistence;
+			productReference = D7138D8826174F4000AA990A /* Bash_Profile_Persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7138D9926174F4200AA990A /* Bash_Profile_PersistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138DB126174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_PersistenceTests" */;
+			buildPhases = (
+				D7138D9626174F4200AA990A /* Sources */,
+				D7138D9726174F4200AA990A /* Frameworks */,
+				D7138D9826174F4200AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7138D9C26174F4200AA990A /* PBXTargetDependency */,
+			);
+			name = Bash_Profile_PersistenceTests;
+			productName = Bash_Profile_PersistenceTests;
+			productReference = D7138D9A26174F4200AA990A /* Bash_Profile_PersistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7138DA426174F4200AA990A /* Bash_Profile_PersistenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7138DB426174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_PersistenceUITests" */;
+			buildPhases = (
+				D7138DA126174F4200AA990A /* Sources */,
+				D7138DA226174F4200AA990A /* Frameworks */,
+				D7138DA326174F4200AA990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7138DA726174F4200AA990A /* PBXTargetDependency */,
+			);
+			name = Bash_Profile_PersistenceUITests;
+			productName = Bash_Profile_PersistenceUITests;
+			productReference = D7138DA526174F4200AA990A /* Bash_Profile_PersistenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7138D8026174F4000AA990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D7138D8726174F4000AA990A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D7138D9926174F4200AA990A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7138D8726174F4000AA990A;
+					};
+					D7138DA426174F4200AA990A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D7138D8726174F4000AA990A;
+					};
+				};
+			};
+			buildConfigurationList = D7138D8326174F4000AA990A /* Build configuration list for PBXProject "Bash_Profile_Persistence" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7138D7F26174F4000AA990A;
+			productRefGroup = D7138D8926174F4000AA990A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7138D8726174F4000AA990A /* Bash_Profile_Persistence */,
+				D7138D9926174F4200AA990A /* Bash_Profile_PersistenceTests */,
+				D7138DA426174F4200AA990A /* Bash_Profile_PersistenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7138D8626174F4000AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D9026174F4200AA990A /* Assets.xcassets in Resources */,
+				D7138D9326174F4200AA990A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D9826174F4200AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138DA326174F4200AA990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7138D8426174F4000AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138DB826174F5000AA990A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138D9626174F4200AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138D9F26174F4200AA990A /* Bash_Profile_PersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7138DA126174F4200AA990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7138DAA26174F4200AA990A /* Bash_Profile_PersistenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7138D9C26174F4200AA990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7138D8726174F4000AA990A /* Bash_Profile_Persistence */;
+			targetProxy = D7138D9B26174F4200AA990A /* PBXContainerItemProxy */;
+		};
+		D7138DA726174F4200AA990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7138D8726174F4000AA990A /* Bash_Profile_Persistence */;
+			targetProxy = D7138DA626174F4200AA990A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7138D9126174F4200AA990A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7138D9226174F4200AA990A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7138DAC26174F4200AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7138DAD26174F4200AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7138DAF26174F4200AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bash_Profile_Persistence/Bash_Profile_Persistence.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Bash_Profile_Persistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-Persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7138DB026174F4200AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bash_Profile_Persistence/Bash_Profile_Persistence.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Bash_Profile_Persistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-Persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7138DB226174F4200AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = Bash_Profile_PersistenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-PersistenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bash_Profile_Persistence.app/Contents/MacOS/Bash_Profile_Persistence";
+			};
+			name = Debug;
+		};
+		D7138DB326174F4200AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = Bash_Profile_PersistenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-PersistenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bash_Profile_Persistence.app/Contents/MacOS/Bash_Profile_Persistence";
+			};
+			name = Release;
+		};
+		D7138DB526174F4200AA990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = Bash_Profile_PersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-PersistenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Bash_Profile_Persistence;
+			};
+			name = Debug;
+		};
+		D7138DB626174F4200AA990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HRYGRPW472;
+				INFOPLIST_FILE = Bash_Profile_PersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Bash-Profile-PersistenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Bash_Profile_Persistence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7138D8326174F4000AA990A /* Build configuration list for PBXProject "Bash_Profile_Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138DAC26174F4200AA990A /* Debug */,
+				D7138DAD26174F4200AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138DAE26174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138DAF26174F4200AA990A /* Debug */,
+				D7138DB026174F4200AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138DB126174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_PersistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138DB226174F4200AA990A /* Debug */,
+				D7138DB326174F4200AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7138DB426174F4200AA990A /* Build configuration list for PBXNativeTarget "Bash_Profile_PersistenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7138DB526174F4200AA990A /* Debug */,
+				D7138DB626174F4200AA990A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7138D8026174F4000AA990A /* Project object */;
+}
