@@ -2,7 +2,19 @@
 
 This repo is a Swift port of the original PersistentJXA projects by D00MFist (https://github.com/D00MFist/PersistentJXA). 
 
-For my repos, the code that executes the persistence is Swift and I kept the payloads themselves as JXA payloads. Additional details are below:
+For my repos, the code that executes the persistence is Swift and I kept the payloads themselves as JXA payloads. 
+
+------------------
+## Steps
+
+1. Ensure you have Xcode installed (which will also install Swift)
+2. Open the .xcodeproj file of the desired persistence project (ex: AtomPersist) in XCode
+3. Make any changes (if desired) and then build in Xcode
+4. The build will drop the .app package to something like **~/Library/Developer/Xcode/DerivedData/[Project-Name]-[random]/Build/Products/Debug/[Project].app**
+5. cd into the [Project].app/Content/MacOS directory in #4 above
+6. run the macho binary there (ex: ./AtomPersist [path_to_jxa_payload])
+
+Additional details are below:
 
 ---------------------------
 ## Details
