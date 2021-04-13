@@ -10,6 +10,7 @@ var isDir = ObjCBool(true)
 if CommandLine.arguments.count != 2 {
     print("Usage: ./\(scriptname) [path_to_.js_jxa_payload]")
     print("exiting...")
+    exit(0)
 }
 else {
     let payload = CommandLine.arguments[1]
@@ -84,11 +85,13 @@ else {
         }
         else {
             print("iTerm2 not found on this host. Exiting...")
+            exit(0)
         }
         
     }
     else {
         print("The .js jxa payload you entered was not found. Exiting...")
+        exit(0)
     }
     
 
