@@ -1,7 +1,7 @@
 import Foundation
 import Cocoa
 
-//usage: ./LoginItemPersistence [app path] [login_item_display_name] [yes/no]
+//usage: ./LoginItemPersistence [app path] [true/false]
 let fileMan = FileManager.default
 let scriptName = CommandLine.arguments[0]
 
