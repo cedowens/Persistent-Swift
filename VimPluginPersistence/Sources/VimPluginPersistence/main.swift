@@ -48,6 +48,7 @@ else {
                 
             }
             catch let error {
+                print(error)
                 
             }
             
