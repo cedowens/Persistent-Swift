@@ -8,11 +8,11 @@ For my repos, the code that executes the persistence is Swift and I kept the pay
 ## Steps
 
 1. Ensure you have Xcode installed (which will also install Swift)
-2. Open the .xcodeproj file of the desired persistence project (ex: AtomPersist) in XCode
-3. Make any changes (if desired) and then build in Xcode
-4. The build will drop the .app package to something like **~/Library/Developer/Xcode/DerivedData/[Project-Name]-[random]/Build/Products/Debug/[Project].app**
-5. cd into the [Project].app/Content/MacOS directory in #4 above
-6. run the macho binary there (ex: ./AtomPersist [path_to_jxa_payload])
+2. If you want to make any changes to the code, open the .xcodeproj file of the desired persistence project (ex: AtomPersist) in XCode and edit the code in main.swift
+3. Once done with any edits or if you don't want to make any edits at all, you can **cd** into the project directory and then run ***swift build***
+4. This will build the macho binary in the following directory structure of the project directory: **.build/debug**
+5. You can then cd into that directory and run the macho binary (or copy the macho elsewhere and run it)
+6. Alternatively, you can also build from XCode by clicking **Product** -> **Build**. This method will drop the macho at a directory structure similar to: **~/Library/Developer/Xcode/DerivedData/[ProjectName]-[random]/Build/Products/Debug/**.
 
 Additional details are below:
 
