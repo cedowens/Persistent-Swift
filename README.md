@@ -2,7 +2,7 @@
 
 This repo is a Swift port of some of the original PersistentJXA projects by D00MFist (https://github.com/D00MFist/PersistentJXA). I ported over some of the persistence methods from D00MFist's repo that do not require root.
 
-For my repos, the code that executes the persistence is Swift and I kept the payloads themselves as JXA payloads. 
+In this repo, the code that executes the persistence is Swift and I kept the payloads themselves as JXA payloads. 
 
 ------------------
 ## Steps
